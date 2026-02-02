@@ -12,12 +12,11 @@ The `extract-captions.js` script is designed to extract caption texts generated 
 
 ## Usage
 
-Paste and run the code in the browser's console on a Google Meet meeting page. Call the `extractCaptions` function to extract the caption texts.
+Paste and run the code in the browser's console on a Google Meet meeting page to print the current caption texts in console. After that, call the `extractCaptions` function any time to print the newest caption texts.
 
 ## Example
 
 ```javascript
-// Example usage
-const extractedCaptions = extractCaptions();
-console.log(extractedCaptions);
+// After pasting and running the code in extract-captions.js
+console.log(extractCaptions());
 ```
