@@ -25,3 +25,6 @@ function extractCaptions() {
     // Return the extracted captions
     return captions;
 }
+
+// Print the captions in console
+console.log(extractCaptions());
