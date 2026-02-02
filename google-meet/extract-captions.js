@@ -13,7 +13,7 @@ function extractCaptions() {
         const name = nameElement ? nameElement.textContent : '';
 
         // Get the caption text from the div with class 'bh44bd VbkSUe'
-        const textElement = captionDiv.querySelector('div.bh44bd.VbkSUe');
+        const textElement = captionDiv.querySelector('div.ygicle.VbkSUe');
         const text = textElement ? textElement.textContent : '';
 
         // Combine name and text if text is present
